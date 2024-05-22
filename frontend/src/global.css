@@ -1,0 +1,125 @@
+.main-container {
+  display: flex;
+  z-index: 1000;
+  
+}
+
+.heading-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #17132A;
+  /* background-color: white; */
+  width: 100vw;
+  height: 7rem;
+  position: fixed;
+  top: 0;
+  z-index: 500;
+  /* box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); Add box shadow for a subtle effect */
+}
+
+main {
+  padding: 10px;
+}
+
+.title {
+  font-size: 3rem;
+  display: grid;
+  place-items: center;
+}
+
+/* Sidebar */
+.sidebar {
+  background: rgb(208, 208, 208);
+  color: #17132A;
+  height: 100vh;
+  overflow-y: auto;
+  position: fixed;
+  top: auto;
+  z-index: 1000;
+  width: 250px; /* Adjust the width of the sidebar */
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px;
+}
+
+.logo {
+  font-size: 18px;
+  line-height: 0;
+}
+
+.bars {
+  width: 30px;
+  font-size: 2.5rem;
+}
+
+.routes {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.link {
+  display: flex;
+  color: #17132A;
+  gap: 10px;
+  padding: 15px 10px; /* Increase padding for better touch experience */
+  transition: background-color 0.2s ease-in-out, border-right 0.2s ease-in-out;
+}
+
+.link:hover {
+  background: #b2b2b2; /* Change the background color on hover */
+  border-right: 4px solid #17132A; /* Change the border color on hover */
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.icon2 {
+  color: #17132A;
+  font-size: 6rem;
+  cursor: pointer;
+}
+
+.icon2:hover {
+  color: #17132A;
+}
+
+.active {
+  border-right: 5px solid #17132A;
+  background: #b2b2b2;
+}
+
+.link_text {
+  white-space: nowrap;
+  font-size: 2rem;
+}
+
+.menu {
+  display: flex;
+  color: white;
+  padding: 15px 10px; /* Increase padding for better touch experience */
+  transition: background-color 0.2s ease-in-out, border-right 0.2s ease-in-out;
+  justify-content: space-between;
+}
+
+.menu_item {
+  display: flex;
+  gap: 10px;
+}
+
+.menu_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu_container .link {
+  padding-left: 20px;
+  border-bottom: #fff 0.5px solid;
+}

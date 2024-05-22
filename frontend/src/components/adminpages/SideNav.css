@@ -1,0 +1,10 @@
+.sidebar-container {
+
+    width: 20rem;
+    height: 100vh;
+    background-color: rgb(218, 21, 21);
+    position: fixed;
+    left: 0px;
+
+
+}

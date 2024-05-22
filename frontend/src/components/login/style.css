@@ -1,0 +1,80 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4; 
+    height: 100vh;
+}
+
+.login-box-container h1 {
+    font-size: 3rem;
+    color: #333; 
+    font-weight: 500;
+}
+
+.login-box {
+    background-color: rgba(255, 255, 255, 0.9); 
+    height: 50rem;
+    width: min(40rem, 90vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40rem;
+    width: min(35rem, 90vw);
+}
+
+.login-input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-input-container input::placeholder {
+    color: gray;
+    font-size: 1.6rem;
+    font-weight: 100;
+}
+
+.login-input-container input {
+    padding: 1.4rem 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border-radius: 4px;
+    width: 100%;
+    background-color: #f9f9f9; 
+    transition: all 0.5s ease-in-out;
+    font-size: 2rem;
+    color: #333; 
+}
+
+.login-input-container input:focus {
+    transform: translateX(-5px);
+}
+
+.primary-button {
+    padding: 1.2rem 0;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    background-color: #2bb4e4; 
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.primary-button.empbtn {
+    background-color: #b83af6; 
+}
+
+.login-box-container p {
+    font-size: 1.6rem;
+    color: #555;
+}
